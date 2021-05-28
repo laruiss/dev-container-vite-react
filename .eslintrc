@@ -4,5 +4,16 @@
   "rules": {
     "comma-dangle": [2, "always-multiline"],
     "jsx-quotes": [2, "prefer-double"]
-  }
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/__tests__/*.{j,t}s?(x)",
+        "**/*.spec.{j,t}s?(x)"
+      ],
+      "env": {
+        "jest": true
+      }
+    }
+  ]
 }
