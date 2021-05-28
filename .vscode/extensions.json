@@ -1,0 +1,25 @@
+{
+  "recommendations": [
+    "ms-vscode-remote.remote-containers",
+    "vscode-icons-team.vscode-icons",
+    "coenraads.bracket-pair-colorizer",
+    "oderwat.indent-rainbow",
+    "steoates.autoimport",
+    "wix.vscode-import-cost",
+    "editorconfig.editorconfig",
+    "wmaurer.change-case",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "eamodio.gitlens",
+    "mhutchie.git-graph",
+    "dbaeumer.vscode-eslint",
+    "eg2.vscode-npm-script",
+    "pflannery.vscode-versionlens",
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+    "dsznajder.es7-react-js-snippets",
+    "planbcoding.vscode-react-refactor",
+    "orta.vscode-jest",
+    "andys8.jest-snippets",
+  ]
+}
