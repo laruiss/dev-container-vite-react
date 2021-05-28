@@ -1,0 +1,8 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["standard", "standard-jsx", "standard-react"],
+  "rules": {
+    "comma-dangle": [2, "always-multiline"],
+    "jsx-quotes": [2, "prefer-double"]
+  }
+}
