@@ -11,4 +11,4 @@ RUN npm i
 COPY ./src ./src
 COPY ./index.html  ./vite.config.js ./.gitignore ./
 
-CMD ["npm", "run", "dev", "--", "--host"]
+CMD ["npm", "run", "dev"]
