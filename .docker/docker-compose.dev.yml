@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  react-dev:
+    container_name: react-dev
+    build:
+      context: ../
+      dockerfile: .docker/Dockerfile.dev
+    ports:
+      - 3000:3000
+    volumes:
+      - ../src:/app/src
+      - ../.eslintrc:/app/.eslintrc
+      - ../babel.config.js:/app/babel.config.js
+      - ../index.html:/app/index.html
+      - ../jest.config.js:/app/jest.config.js
+      - ../package.json:/app/package.json
+      - ../package-lock.json:/app/package-lock.json
+      - ../vite.config.js:/app/vite.config.js
